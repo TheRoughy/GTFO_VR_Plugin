@@ -55,7 +55,6 @@ namespace GTFO_VR.Core.PlayerBehaviours
             m_weaponAmmoHolo.Setup();
 
             GameObject laserPointer = new GameObject("LaserPointer");
-            laserPointer.transform.SetParent(transform);
             m_pointer = laserPointer.AddComponent<LaserPointer>();
 
 

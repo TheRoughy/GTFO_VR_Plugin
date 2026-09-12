@@ -26,7 +26,6 @@ namespace GTFO_VR.Core.UI
         {
             m_destroyed = false;
             m_holoHolder = new GameObject("WeaponHoloText");
-            m_holoHolder.transform.SetParent(transform, false);
 
             AddSubText(m_holoHolder.transform, .0f);
             AddSubText(m_holoHolder.transform, .15f);
